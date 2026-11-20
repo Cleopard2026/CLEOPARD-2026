@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technologies – CLEOPARD</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="site-header"></div>
+<main>
+<div class="page-head"><div class="container"><h1>Technologies</h1></div></div>
+<div class="breadcrumb"><div class="container"><a href="index.html">Accueil</a> <span>›</span> <a href="technologies.html">Technologies</a></div></div>
+<div class="section"><div class="container">
+
+<div id="tech"></div>
+
+<section class="block" id="exemple">
+<h2 class="section-title">Exemple de programme</h2>
+<div class="note">Exemple de démonstration à remplacer par votre propre code.</div>
+<pre><code>// Exemple de démonstration
+const int moteur = 9;
+int distance = 0;
+
+void setup() {
+  pinMode(moteur, OUTPUT);
+}
+
+void loop() {
+  if (distance > 20) {
+    analogWrite(moteur, 150);
+  } else {
+    analogWrite(moteur, 0);
+  }
+}</code></pre>
+</section>
+
+</div></div>
+</main>
+<div id="site-footer"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
